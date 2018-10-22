@@ -1,5 +1,5 @@
 var http = require('http');
-var hana = require('hdb');
+var hana = require('@sap/hana-client');
 
 var client = hdb.createClient({
   host     : 'hostname',
