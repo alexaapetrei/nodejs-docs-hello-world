@@ -12,6 +12,7 @@
         "@sap/hana-client": "^2.3.119"
     },
     "scripts": {
+        "preinstall": "npm config set @sap:registry https://npm.sap.com",
         "start": "node index.js"
     }
 }
