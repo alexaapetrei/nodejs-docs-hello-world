@@ -1,7 +1,7 @@
 var http = require('http');
-var hana = require('hana');
+var hana = require('hdb');
 
-var client = hana.createClient({
+var client = hdb.createClient({
   host     : 'hostname',
   port     : 30015,
   user     : 'user',
