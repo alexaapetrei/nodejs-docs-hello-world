@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "hana": "@sap/hana-client"
-    }
+    },
     "scripts": {
         "start": "node index.js"
     }
