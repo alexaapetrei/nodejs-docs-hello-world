@@ -9,7 +9,7 @@
         "node": ">=6.9.1"
     },
     "dependencies": {
-        "hana": "https://github.com/SAP/node-hdb.git"
+        "hdb": "https://github.com/SAP/node-hdb.git#master"
     },
     "scripts": {
         "start": "node index.js"
