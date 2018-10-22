@@ -9,7 +9,7 @@
         "node": ">=6.9.1"
     },
     "dependencies": {
-        "hdb": "https://github.com/SAP/node-hdb.git#master"
+        "@sap/hana-client": "^2.3.119",
     },
     "scripts": {
         "start": "node index.js"
